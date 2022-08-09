@@ -17,7 +17,7 @@ a{
 
 /* ---------- nav starts --------- */
 
-.nav-container{
+nav{
     height: 76px;
     margin-bottom: 63px;
 }
@@ -34,12 +34,15 @@ a{
 }
 
 .quick-links{
+    margin-top: -13px;
     margin-left: 161px;
 }
+
 .quick-links a{
     color: #616367;
     font-weight: 400;
     font-size: 18px;
+    
 }
 .quick-links a:hover{
     color: #15063F;
@@ -50,34 +53,32 @@ a{
     
 }
 
-.quick-links a:nth-of-type(1){
-    padding-right: 63px;
+.quick-links li:nth-of-type(1){
+    padding-right: 67px;
 }
-.quick-links a:nth-of-type(2){
+.quick-links li:nth-of-type(2){
+    padding-right: 66px;
+}
+.quick-links li:nth-of-type(3){
     padding-right: 62px;
 }
-.quick-links a:nth-of-type(3){
-    padding-right: 57px;
+.quick-links li:nth-of-type(4){
+    padding-right: 62px;
 }
-.quick-links a:nth-of-type(4){
-    padding-right: 58px;
-}
-.quick-links a:nth-of-type(5){
+.quick-links li:nth-of-type(5){
     padding-right: 0px;
 }
 
-
-
-.profile-icons{
+.profile-iconss{
     margin-left: 168px;
 }
      
-.profile-icons img:nth-of-type(1){
-    padding-right: 32px ;
+.profile-iconss li:nth-of-type(1){
+    padding-right: 38px ;
 
 }
-.profile-icons img:nth-of-type(2){
-    padding-right: 33px ;
+.profile-iconss li:nth-of-type(2){
+    padding-right: 38px ;
 
 }
 
