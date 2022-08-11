@@ -90,6 +90,9 @@ nav{
 /* ---------- Header section STARTS --------- */
 header{
     background: #f8fcff url(../images/header-bg.png);
+        /* height: 300px; */
+       
+      
     background-repeat: no-repeat;
     background-position: 322px 0px;
     height: 872px;
@@ -576,5 +579,65 @@ footer hr {
 }
 /*---------- footer ENDS ----------*/
 
-/*---------- Latest Products STARTS ----------*/
-/*---------- Latest Products ENDS ----------*/
+/*---------- Media Query STARTS ----------*/
+@media only screen and (max-width:480px) {
+    .navbar{
+        margin-bottom: 1em;
+    }
+    header{
+
+        background-size: 320px ;
+        background-position: 50% 0px;
+
+    }
+    .headline{
+        padding-top: 1em;
+    }
+    .headline h1{
+    
+        padding-top: 0px;
+        /* margin: -10px 0; */
+        margin-bottom: 1em;
+        line-height: 3rem;
+
+        font-size: 2em;
+        text-shadow: 2px 2px 25px #F8FCFF;
+    }
+    .headline a{
+        font-size: 1rem;
+        margin-top: 5em;
+        padding: 10px 14px 10px 20px;
+    }
+    
+    
+.social-links{
+    margin-top: 15em;
+}
+hr{
+    margin: 0 ;
+    width: 70%;
+    
+}
+.social-links a{
+    font-size: 1rem;
+    line-height: 3rem;
+}
+}
+ 
+
+@media only screen and (max-width:767px) {
+
+
+}
+@media only screen and (max-width:991px) {
+    
+  
+}
+
+
+@media only screen and (max-width:1199px) {}
+    
+   
+
+@media only screen and (min-width: 1200px) {}
+/*----------  Media Query ENDS ----------*/

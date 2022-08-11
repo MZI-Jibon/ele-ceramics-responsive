@@ -1,0 +1,252 @@
+
+<!-- Header box STARTS -->
+<div class="header-boxes text-center">
+    <div class="d-flex justify-content-between">
+      <div class="box">
+            <h2>18</h2>
+            <p>Years In Business</p>
+      </div>                 
+      <div class="box">
+            <h2>25700</h2>
+            <p>Happy Customers</p>
+      </div>                 
+      <div class="box">
+            <h2>5600</h2>
+            <p>5 Star Reviews</p>
+      </div>                 
+      <div class="box box-4">
+            <h2>17</h2>
+            <p>Awards & Nominations</p>
+      </div>                 
+                      
+                    
+    </div>
+  </div>
+  <!-- Header box ENDS -->
+
+  <!-- Latest Products STARTS -->
+  <div class="latest-products-container">
+    <div class="lp-1">
+        <h2 class="">Latest</h2>
+        <h2 class="">Products</h2>
+        <img src="images/Latest1.png" class="lp-1-img" alt="">
+        <p>Nature’s Colors</p>
+        <h5>Nature’s Colors Dinnerware</h5>
+    </div>
+    <div class="lp-2">
+        <img src="images/Latest2.png" class="lp-2-img" alt="">
+        <p>Exquisite Porcelain</p>
+        <h5>Exquisite Porcelain Vases</h5>
+    </div>
+    <div class="lp-3">
+        <img src="images/Latest3.png" class="" alt="">
+        <p>Bird’s Feather</p>
+        <h5>Bird’s Feather Ceramic Set</h5>
+    </div>
+    <div class="lp-4">
+        <img src="images/Latest4.png" class="" alt="">
+        <p>Cashmere Green</p>
+        <h5>Cashmere Green Vase</h5>
+    </div>
+    <div class="lp-5">
+        <img src="images/Latest5.png" class="" alt="">
+        <p>Ivory Ripple</p>
+        <h5>Ivory Ripple Table Decor</h5>
+    </div>
+    <div class="lp-6">
+        <img src="images/Latest6.png" class="" alt="">
+        <p>Porcelain White </p>
+        <h5>Porcelain White Table Decor</h5>
+    </div>
+  </div>
+  <!-- Latest Products ENDS -->
+
+  <!-- Exclusive STARTS -->
+  <div class="exclusive">
+    <div class="exclusive-container"> 
+        <div class="exclusive-text">
+            <h5>Get Exclusive 15% Off </h5>
+            <h4>On Your First Purchase</h4>
+            <a>Shop Now</a>
+        </div>
+        <div class="exclusive-img  ">
+            <img src="images/exclusive.png" class="" alt="">
+        </div>
+    </div>
+  </div>
+  <!-- Exclusive ENDS -->
+
+  <!-- Products On Sale STARTS -->
+  <div class="product-on-sale-container">
+    <div class="products-headline">
+       <h2>Products On Sale</h2> 
+    </div>
+    <div class="products-quicklinks">
+        <a href="#" class="active">Dinnerware</a>
+        <a href="#">Vases</a>
+        <a href="#">Clay Pots</a>
+        <a href="#">Tea Sets</a>
+    </div>
+    
+  </div>
+  <div class="products-container">
+       <div class="product">
+        <img src="images/products1.png" alt="">
+        <h5>Rosy Gold Vase</h5>
+        <p class="d-inline-flex price-1">$36.00</p>
+        <p class="d-inline-flex price-2">$25.00</p>
+       </div>
+       <div class="product">
+        <img src="images/products2.png" alt="">
+        <h5>Ocean Ceramic Plates</h5>
+        <p class="d-inline-flex price-1">$36.00</p>
+        <p class="d-inline-flex price-2">$25.00</p>
+       </div>
+       <div class="product">
+        <img src="images/products3.png" alt="">
+        <h5>Natural Clay Pot</h5>
+        <p class="d-inline-flex price-1">$36.00</p>
+        <p class="d-inline-flex price-2">$25.00</p>
+       </div>
+       <div class="product">
+        <img src="images/products4.png" alt="">
+        <h5>Into The Night Pot</h5>
+        <p class="d-inline-flex price-1">$36.00</p>
+        <p class="d-inline-flex price-2">$25.00</p>
+       </div>
+       <div class="product">
+        <img src="images/products5.png" alt="">
+        <h5>Rainbow Flower Vase</h5>
+        <p class="d-inline-flex price-1">$36.00</p>
+        <p class="d-inline-flex price-2">$25.00</p>
+       </div>
+       <div class="product">
+        <img src="images/products6.png" alt="">
+        <h5>Pink Ripples Vase</h5>
+        <p class="d-inline-flex price-1">$36.00</p>
+        <p class="d-inline-flex price-2">$25.00</p>
+       </div>
+       
+    </div>
+  <!-- Products On Sale ENDS -->
+  <!-- Products On Sale ENDS -->
+  <!-- Products On Sale ENDS -->
+  <!-- Products On Sale ENDS -->
+
+ <!-- Customer Reviews STARTS -->
+        <div class="customer-reviews d-flex justify-content-evenly">
+           <div class="left-arrow d-flex align-items-center">
+                 <img src="images/Arrow 2.png"  alt="">
+            </div>  
+        <div class=" d-flex justify-content-center">
+        
+        <div class="wrapper ">
+            <h1>Hear From Our Happy Customers</h1>
+            <div class="stars">
+                <img src="images/star.png" alt="">
+                <img src="images/star.png" alt="">
+                <img src="images/star.png" alt="">
+                <img src="images/star.png" alt="">
+                <img src="images/star.png" alt="">
+            </div>
+            <p>This is my favorite shop to purchase all the beautiful ceramic sets for my home - dinnerware, tea sets, and more. With their classic designs and outstanding quality, EleCeramics is the best in the business for <br>
+            porcelain and china dinnerware and decor.</p>
+                <div class="customer">
+                    <div class="customer-img d-flex justify-content-center">
+                        <img src="images/customer.png" class="" alt="">
+                    </div>
+                        <h5 class="text-center">Steve Smith</h5>
+                    
+                </div>
+                    
+        </div>
+        
+        </div>
+        <div class="right-arrow d-flex align-items-center">
+            <img src="images/Arrow 1.png" alt="">
+           </div>
+        </div>
+
+    <!-- Customer Reviews ENDS -->
+
+    <div class=" d-flex justify-content-center">
+        <div class=" wrapper ">
+
+          <!-- Latest Blog STARTS -->
+
+            <div class="latest-blog">
+                <h1 class="text-center">Latest Blog</h1>
+            <div class="blogs d-flex justify-content-between">
+                <div class="blog1">
+                    <img src="images/Blog1.png" alt="">
+                    <p class="text-wrap" >Guide To Choosing The 
+                        Perfect Dinner Set</p>
+                </div>
+                <div class="blog2">
+                    <img src="images/Blog2.png" alt="">
+                    <p class="text-wrap" >Things About Pottery Art You 
+                        Did Not Know</p>
+                </div>
+                <div class="blog3">
+                    <img src="images/Blog3.png" alt="">
+                    <p class="text-wrap" >Using Porcelain And China 
+                        For Home Decor</p>
+                </div>
+                
+            </div>
+            </div>
+           <!-- Latest Blog ENDS --> 
+           
+              <!--Newsletter  STARTS -->
+              <div class="newsletter">
+                <div class="newsletter-container"> 
+                    <form action="">
+                        <h1 class="text-center">Subscribe to our Newsletter</h1>
+                        <div class="d-flex justify-content-center ">
+                            <div class="form  d-flex justify-content-center" >
+                                <input type="text" class="email-box" placeholder="email" name="mail" required>
+                                <input type="submit" class="subscribe-btn" value="Subscribe">
+                            </div>
+                        </div>
+                    </form>
+                      
+                </div>
+              </div>
+
+              <!--Newsletter  ENDS -->
+        <footer>
+            <div class="footer d-grid justify-content-between">
+                 <div class="ele-ceramics">
+                    <h4>EleCeramics</h4>
+                    <p>EleCeramics - the ruling company for crafting elegant, timeless dinnerware and home decors with the finest clay and ceramics for the past 20 years. </p>
+                </div>
+                <div class="social d-flex flex-column ">
+                    <h4>Social</h4>
+                    <a href="">Facebook</a>
+                    <a href="">Twitter</a>
+                    <a href="">Instagram</a>
+                    <a href="">Linkedin</a>
+                </div>
+                <div class="links d-flex flex-column ">
+                    <h4>Links</h4>
+                    <a href="">About</a>
+                    <a href="">How It Works</a>
+                    <a href="">Pricing Plan</a>
+                    <a href="">FAQ’s</a>
+                </div>
+                <div class="gallery">
+                    <h4>Gallery</h4>
+                    <div class="gallery-img">
+                        <img src="images/gallery1.png" alt="">
+                        <img src="images/gallery2.png" alt="">
+                        <img src="images/gallery3.png" alt="">
+                        <img src="images/gallery4.png" alt="">
+                    </div>
+                </div>
+            </div>
+               
+            <hr >
+            <p class="copyright text-center">© Copyright by WPDeveloper</p>
+            </footer> 
+        </div>
+    </div>
