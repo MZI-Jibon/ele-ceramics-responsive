@@ -24,6 +24,9 @@ nav{
     height: 76px;
     margin-bottom: 63px;
 }
+.navbar{
+    padding-top: 2rem !important;
+}
 .logo a{
     padding-left: 7px;
     font-size: 28px;
