@@ -683,7 +683,6 @@ footer hr {
         width: 100%;
         height: auto;
         padding-top: 20px;
-        /* margin: 30px; */
     }
 }
 @media only screen and (min-width:768px)  and (max-width:991px) {
@@ -767,11 +766,10 @@ footer hr {
     }
 }
     
-   
 
 @media only screen and (min-width: 1200px) {
-.container{
-    max-width: 100%;
-}
+    .container{
+        max-width: 100%;
+    }
 }
 /*----------  Media Query ENDS ----------*/
