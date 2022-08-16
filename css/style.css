@@ -27,6 +27,9 @@ nav{
 .navbar{
     padding-top: 2rem !important;
 }
+.navbar-collapse{
+    background: #f8fcff;
+}
 .logo a{
     padding-left: 7px;
     font-size: 28px;
@@ -593,6 +596,12 @@ footer hr {
     .navbar{
         margin-bottom: 1em;
     }
+    .navbar-collapse {
+        margin-left: -9rem;
+    }
+    .profile-icons {
+        margin-top: 0;
+    }
     header{
         background-size: 80%;
         max-width: 400px;
@@ -647,6 +656,13 @@ footer hr {
     .container {
         max-width: 80%;
     }
+    
+    .navbar-collapse {
+        margin-left: -9rem;
+    }
+    .profile-icons {
+        margin-top: 0;
+    }
     header{
         background-size: 40% ;
         height: 65%;
@@ -692,6 +708,12 @@ footer hr {
 @media only screen and (min-width:768px)  and (max-width:991px) {
     .container-fluid{
         width: 90%;
+    }
+    .navbar-collapse {
+        margin-left: -9rem;
+    }
+    .profile-icons {
+        margin-top: 0;
     }
     header{
         background-size: 40% ;
