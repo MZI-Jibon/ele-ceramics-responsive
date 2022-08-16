@@ -29,7 +29,16 @@ nav{
 }
 .navbar-collapse{
     background: #f8fcff;
+    flex-grow: 0;
 }
+.navbar-light .navbar-toggler {
+    color: #063056;
+    border-color: #062f5660
+}
+.navbar-toggler:focus {
+    box-shadow: 0 0 0 0.1rem;
+}
+
 .logo a{
     padding-left: 7px;
     font-size: 28px;
