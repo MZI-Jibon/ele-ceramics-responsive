@@ -197,13 +197,16 @@ hr{
 /*---------- Latest Products STARTS ----------*/
 
 .latest-products-container {
-    display: grid;
+    /* display: grid;
     justify-content: space-between;
-    grid-template-columns: 515px 515px;
+    grid-template-columns: 515px 515px; */
     padding-left: 7px;
 
   }
-  
+  .latest-products-container .col{
+    padding-right:0 ;
+    padding-left:0 ;
+  }
   .latest-products-container h2, .products-headline h2 {
     margin: 0;
     font-weight: 400;
