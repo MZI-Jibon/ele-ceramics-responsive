@@ -197,11 +197,10 @@ hr{
 /*---------- Latest Products STARTS ----------*/
 
 .latest-products-container {
-    /* display: grid;
-    justify-content: space-between;
-    grid-template-columns: 515px 515px; */
     padding-left: 7px;
-
+  }
+.latest-products-container >.row {
+    max-width: 1158px;
   }
   .latest-products-container .col{
     padding-right:0 ;
@@ -608,8 +607,8 @@ footer hr {
     .navbar{
         margin-bottom: 1em;
     }
-    .navbar-collapse {
-        margin-left: -9rem;
+    .quick-links , .profile-icons{
+        margin-left: 1rem;
     }
     .profile-icons {
         margin-top: 0;
@@ -656,8 +655,21 @@ footer hr {
 }
     .box{
         width: 85%;
+        height: auto;
         margin: 30px;
     }
+
+/*------- Header box ENDS ----------*/
+/*---- Latest Products STARTS ----*/    
+    .lp-2-img {
+        margin-top: 0;
+    }
+    .latest-products-container h5  {
+        font-size: 1.2em;
+        line-height: 1.5;
+        padding-top: 10px;
+    }
+/*------ Latest Products ENDS ------- */
 }
  
 
@@ -669,8 +681,8 @@ footer hr {
         max-width: 80%;
     }
     
-    .navbar-collapse {
-        margin-left: -9rem;
+    .quick-links , .profile-icons{
+        margin-left: 1rem;
     }
     .profile-icons {
         margin-top: 0;
@@ -716,13 +728,22 @@ footer hr {
         height: auto;
         padding-top: 20px;
     }
+
+/*------- Header box ENDS ----------*/
+/*---- Latest Products STARTS ----*/    
+.lp-2-img {
+    margin-top: 0;
+}
+
+/*------ Latest Products ENDS ------- */
+  
 }
 @media only screen and (min-width:768px)  and (max-width:991px) {
     .container-fluid{
         width: 90%;
     }
-    .navbar-collapse {
-        margin-left: -9rem;
+    .quick-links , .profile-icons{
+        margin-left: 1rem;
     }
     .profile-icons {
         margin-top: 0;
@@ -760,9 +781,14 @@ footer hr {
 }
     .box{
         width: 100%;
-        /* height: 100%; */
-        /* margin: 30px; */
     }
+/*------- Header box ENDS ----------*/
+/*---- Latest Products STARTS ----*/    
+
+.latest-products-container h5  {
+    font-size: 1.3em;
+}
+/*------ Latest Products ENDS ------- */
 }
 
 
@@ -801,6 +827,9 @@ footer hr {
     }
     .box p{
         font-size: 15px;
+    }
+    .mt-lg-0 {
+        margin-top: -1rem!important;
     }
 }
     
