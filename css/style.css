@@ -253,26 +253,24 @@ hr{
 
 /*---------- Exclusive Section STARTS ----------*/
 
+/* ================================ */
 .exclusive{
     background: linear-gradient(#f8fcff,#f8fcff) padding-box,
     linear-gradient(90deg, #E3F1FF, #69A3DE) border-box;
+    width: 1170px ;
     border-width: 2px;
     border-style: solid;
     border-color: transparent;
     border-radius: 20px;
     padding: 15px;
-    margin: 190px 0 0 7px;
+    margin: 190px 0 0 7px ;
 }
-.exclusive-container{
+
+.exclusive>.row{
     background: linear-gradient(270deg, #C5E9FF 0%, #F8FCFF 100%);
     margin: 0px;
     border-radius: 20px;
-    display: grid;
-    justify-content: space-between;
-    grid-template-columns: repeat(2, 1fr);
-    
 }
-
 .exclusive-text{
     padding: 73px 0 0 75px;
 }
@@ -300,17 +298,27 @@ hr{
     line-height: 110px;
     padding: 21px 40px 20px 40px;
 }
-.exclusive-img{
+.exclusive-img>img{
     margin: -45px 0 0 0;
     margin-left: auto;
     padding: 0 102px 27px 0px;
+    filter: drop-shadow(0px 30px 60px rgba(0, 1, 35, 0.1));
 }
+/* ================================ */
 
-.exclusive-img img{
+
+/* ================================ */
+
+/* .exclusive-img img{
         filter: drop-shadow(0px 30px 60px rgba(0, 1, 35, 0.1));
 
-}
+} */
 /*---------- Exclusive Section ENDS ----------*/
+/* ================================ */
+
+
+
+/* ================================ */
 
 
 /*---------- Products On Sale STARTS ----------*/
@@ -670,6 +678,36 @@ footer hr {
         padding-top: 10px;
     }
 /*------ Latest Products ENDS ------- */
+/*---- Exclusive Section STARTS ------*/
+ 
+.exclusive{
+    margin-top: 5em;
+}
+.exclusive-text{
+    padding: 2em .5em ;
+}
+.exclusive-text h5{
+    font-size: 1.3em;
+    line-height: 1em;
+}
+.exclusive-text h4{
+    font-size: 1.4em;
+    line-height: 2.5em;
+}
+.exclusive-text a{
+    font-size: 1em;
+    line-height: 5em;
+    padding: 0.3em 1em;
+}
+.exclusive-img>img{
+    margin-top: -5em !important;
+    padding: 0 1em 1em 3em;
+    width: 80%;
+}
+
+
+
+/*------ Exclusive Section ENDS ------*/
 }
  
 
@@ -736,8 +774,44 @@ footer hr {
 }
 
 /*------ Latest Products ENDS ------- */
+
+/*---- Exclusive Section STARTS ------*/
+
   
+.exclusive-text{
+    padding: 1em .5em;
 }
+.exclusive-text h5{
+    font-size: 1.5em;
+    line-height: 1em;   
+    
+}
+.exclusive-text h4{
+    font-size: 1.7em;
+    line-height: 2.5em;   
+}
+.exclusive-text a{
+    color: #FEFFFF !important;
+    background: #063056;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 110px;
+    padding: 21px 40px 20px 40px;
+}
+.exclusive-img{
+    margin: -2em 0 0 0;
+}
+.exclusive-img>img{
+    margin: -45px 0 0 0;
+    padding: 0 1em 3em 0;
+}
+
+
+/*------ Exclusive Section ENDS ------*/
+
+}
+
+
 @media only screen and (min-width:768px)  and (max-width:991px) {
     .container-fluid{
         width: 90%;
@@ -789,6 +863,46 @@ footer hr {
     font-size: 1.3em;
 }
 /*------ Latest Products ENDS ------- */
+/*---- Exclusive Section STARTS ------*/
+
+  
+.exclusive-text{
+    padding: 73px 0 0 75px;
+}
+.exclusive-text h5{
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 60px;    
+    color: #2E85C8;
+    margin: 0;
+    
+}
+.exclusive-text h4{
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 60px;    
+    color: #15063F;
+    margin: 0;
+    
+}
+.exclusive-text a{
+    color: #FEFFFF !important;
+    background: #063056;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 110px;
+    padding: 21px 40px 20px 40px;
+}
+.ex-img>img{
+    margin: -45px 0 0 0;
+    margin-left: auto;
+    padding: 0 102px 27px 0px;
+    filter: drop-shadow(0px 30px 60px rgba(0, 1, 35, 0.1));
+}
+
+
+/*------ Exclusive Section ENDS ------*/
+
 }
 
 
@@ -820,7 +934,6 @@ footer hr {
         width: 100%;
         height: 100%;
         padding-top: 30px;
-        /* margin: 30px; */
     }
     .box h2{
         font-size: 35px;
@@ -831,6 +944,47 @@ footer hr {
     .mt-lg-0 {
         margin-top: -1rem!important;
     }
+/*------  Header Box ENDS ------*/
+
+/*---- Exclusive Section STARTS ------*/
+
+  
+.exclusive-text{
+    padding: 73px 0 0 75px;
+}
+.exclusive-text h5{
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 60px;    
+    color: #2E85C8;
+    margin: 0;
+    
+}
+.exclusive-text h4{
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 60px;    
+    color: #15063F;
+    margin: 0;
+    
+}
+.exclusive-text a{
+    color: #FEFFFF !important;
+    background: #063056;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 110px;
+    padding: 21px 40px 20px 40px;
+}
+.ex-img>img{
+    margin: -45px 0 0 0;
+    margin-left: auto;
+    padding: 0 102px 27px 0px;
+    filter: drop-shadow(0px 30px 60px rgba(0, 1, 35, 0.1));
+}
+
+
+/*------ Exclusive Section ENDS ------*/
 }
     
 
