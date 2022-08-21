@@ -779,7 +779,7 @@ footer hr {
 
   
 .exclusive-text{
-    padding: 1em .5em;
+    padding: 3em;
 }
 .exclusive-text h5{
     font-size: 1.5em;
@@ -787,23 +787,21 @@ footer hr {
     
 }
 .exclusive-text h4{
-    font-size: 1.7em;
+    font-size: 2em;
     line-height: 2.5em;   
 }
 .exclusive-text a{
-    color: #FEFFFF !important;
-    background: #063056;
-    font-weight: 500;
     font-size: 18px;
     line-height: 110px;
-    padding: 21px 40px 20px 40px;
+    padding: 15px 40px ;
 }
 .exclusive-img{
     margin: -2em 0 0 0;
 }
 .exclusive-img>img{
-    margin: -45px 0 0 0;
-    padding: 0 1em 3em 0;
+    width: 65%;
+    margin: -80px 0 0 0;
+    padding: 0 4em 2em 0;
 }
 
 
@@ -867,37 +865,22 @@ footer hr {
 
   
 .exclusive-text{
-    padding: 73px 0 0 75px;
+    padding: 5em 2em;
 }
 .exclusive-text h5{
-    font-weight: 400;
-    font-size: 35px;
-    line-height: 60px;    
-    color: #2E85C8;
-    margin: 0;
+    font-size: 1.2em;
+    line-height: 1em; 
     
 }
 .exclusive-text h4{
-    font-weight: 400;
-    font-size: 40px;
-    line-height: 60px;    
-    color: #15063F;
-    margin: 0;
+    font-size: 1.4em;
     
 }
 .exclusive-text a{
-    color: #FEFFFF !important;
-    background: #063056;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 110px;
-    padding: 21px 40px 20px 40px;
+    padding: 15px 30px;
 }
-.ex-img>img{
-    margin: -45px 0 0 0;
-    margin-left: auto;
-    padding: 0 102px 27px 0px;
-    filter: drop-shadow(0px 30px 60px rgba(0, 1, 35, 0.1));
+.exclusive-img>img{
+    padding: 0 2em 5em 0px;
 }
 
 
@@ -950,37 +933,13 @@ footer hr {
 
   
 .exclusive-text{
-    padding: 73px 0 0 75px;
+    padding: 3em;
 }
 .exclusive-text h5{
-    font-weight: 400;
-    font-size: 35px;
-    line-height: 60px;    
-    color: #2E85C8;
-    margin: 0;
-    
+    font-size: 30px;
 }
 .exclusive-text h4{
-    font-weight: 400;
-    font-size: 40px;
-    line-height: 60px;    
-    color: #15063F;
-    margin: 0;
-    
-}
-.exclusive-text a{
-    color: #FEFFFF !important;
-    background: #063056;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 110px;
-    padding: 21px 40px 20px 40px;
-}
-.ex-img>img{
-    margin: -45px 0 0 0;
-    margin-left: auto;
-    padding: 0 102px 27px 0px;
-    filter: drop-shadow(0px 30px 60px rgba(0, 1, 35, 0.1));
+    font-size: 33px;
 }
 
 
