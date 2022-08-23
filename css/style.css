@@ -323,13 +323,17 @@ hr{
 
 /*---------- Products On Sale STARTS ----------*/
 .product-on-sale-container{
-    display: grid;
-    grid-template-columns: 600px 577px;
     margin: 205px 0 0 7px;
-    
 }
+
+/* ================================ */
+
+/* ================================ */
+
+
 .products-quicklinks{
     margin-top: -1px;
+    padding-left: 15px;
 }
 .products-quicklinks a{
     font-weight: 400;
@@ -337,8 +341,6 @@ hr{
     line-height: 80px;
     color: #737373;
     padding-bottom: 4px;
-
-    
     border-bottom: 1px solid transparent;
     
 }
@@ -363,13 +365,20 @@ hr{
 }
 
 .products-container{
-    display: grid;
-    justify-content: space-between;
-    grid-template-columns: 370px 370px 370px ;
     grid-gap: 55px 30px;
     padding: 75px 0 0 7px;
+    font-weight: 400;
+    font-size: 20px;
 
 }
+.product{
+    max-width: 370px;
+}
+/* ================================ */
+
+
+/* ================================ */
+
 .products-container h5{
     font-weight: 400;
     font-size: 25px;
@@ -624,7 +633,7 @@ footer hr {
     header{
         background-size: 80%;
         max-width: 400px;
-        height: 11%;
+        height: 7%;
         background-position: 50% 0px;
     }
     .headline{
@@ -706,9 +715,27 @@ footer hr {
     width: 80%;
 }
 
-
-
 /*------ Exclusive Section ENDS ------*/
+
+/*------ Products On Sale STARTS -----*/
+.product-on-sale-container {
+    margin: 7em 1em 0 1em;
+}
+.products-headline h2 {
+    font-size: 2rem;
+}
+.products-quicklinks{
+    padding: 0;
+}
+.products-quicklinks a:nth-of-type(1), .products-quicklinks a:nth-of-type(2), .products-quicklinks a:nth-of-type(3) {
+    margin-right: 0.9em;
+    font-size: .8em;
+    line-height: 0px;
+}
+/*------ Products On Sale ENDS ------*/
+
+
+
 }
  
 
@@ -728,7 +755,7 @@ footer hr {
     }
     header{
         background-size: 40% ;
-        height: 9%;
+        height: 5%;
         background-position: 50% 0px;
     }
     .headline{
@@ -770,6 +797,12 @@ footer hr {
 
 /*------- Header box ENDS ----------*/
 /*---- Latest Products STARTS ----*/    
+.latest-products-container h2 {
+    /* margin: 0; */
+    /* font-weight: 400; */
+    font-size: 3em;
+    /* line-height: 1em; */
+}
 .lp-2-img {
     margin-top: 0;
 }
@@ -805,9 +838,17 @@ footer hr {
     padding: 0 4em 2em 0;
 }
 
-
 /*------ Exclusive Section ENDS ------*/
 
+/*----- Products On Sale STARTS ------*/
+.products-headline h2 {
+    font-size: 3rem;
+}
+.products-quicklinks a:nth-of-type(1), .products-quicklinks a:nth-of-type(2), .products-quicklinks a:nth-of-type(3) {
+    margin-right: 4em;
+}
+
+/*------ Products On Sale ENDS ------*/
 }
 
 
@@ -823,7 +864,7 @@ footer hr {
     }
     header{
         background-size: 40% ;
-        height: 25%;
+        height: 12%;
         background-position: 50% 0px;
     }
     .headline h1{
