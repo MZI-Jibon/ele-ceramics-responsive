@@ -739,9 +739,58 @@ footer hr {
 
 
 
-/*----- Products On Sale STARTS -----*/
+/*----- Customer Reviews STARTS -----*/
+.customer-reviews {
+    margin-top: 18em;
+}
+.left-arrow img , .right-arrow img{
 
-/*----- Products On Sale ENDS ------*/
+    width: 60%;
+
+    }
+
+    .customer-reviews .wrapper{
+        background: url(../images/99.png);
+        background-repeat: no-repeat;
+        background-position: center 100px;
+        height: auto;
+        padding-left: 0;
+        width: 100%;
+    
+    }
+    .customer-reviews h1 {
+        margin: 2em 0;
+        font-size: 1.8em;
+        line-height: 0;
+    }
+    .stars {
+        margin: 2em 0;
+        padding: .5em;
+        text-align: center;
+    }
+    .stars img {
+        padding-right: 0.5em;
+        width: 2em;
+    }
+    .customer-reviews p {
+        /* font-weight: 400; */
+        font-size: 1rem;
+        line-height: 2rem;
+        /* text-align: center; */
+        /* color: #555656; */
+        /* margin-bottom: 16px; */
+    }
+    .customer-img > img{
+        width: 5em;
+    }
+    .customer h5 {
+        /* font-weight: 400; */
+        font-size: 1.5em;
+        /* line-height: 55px; */
+        /* color: #15063F; */
+        /* margin: 9px; */
+    }
+/*----- Customer Reviews ENDS ------*/
 /*----- Products On Sale STARTS -----*/
 
 /*----- Products On Sale ENDS ------*/
@@ -870,9 +919,9 @@ footer hr {
 }
 
 /*------ Products On Sale ENDS ------*/
-/*----- Products On Sale STARTS -----*/
+/*----- Customer Reviews STARTS -----*/
 
-/*----- Products On Sale ENDS ------*/
+/*----- Customer Reviews ENDS ------*/
 /*----- Products On Sale STARTS -----*/
 
 /*----- Products On Sale ENDS ------*/
@@ -984,12 +1033,10 @@ footer hr {
     margin-right: 1em;
     font-size: smaller;
 }
-/*----- Products On Sale STARTS -----*/
-
 /*----- Products On Sale ENDS ------*/
-/*----- Products On Sale STARTS -----*/
+/*----- Customer Reviews STARTS -----*/
 
-/*----- Products On Sale ENDS ------*/
+ /*-----Customer Reviews ENDS ------*/
 /*----- Products On Sale STARTS -----*/
 
 /*----- Products On Sale ENDS ------*/
@@ -1079,7 +1126,10 @@ footer hr {
     margin-right: 2em;
 }
 /*----- Products On Sale ENDS ------*/
-/*----- Products On Sale STARTS -----*/
+/*----- Customer Reviews STARTS -----*/
+
+ /*-----Customer Reviews ENDS ------*/
+ 
 
 /*----- Products On Sale ENDS ------*/
 /*----- Products On Sale STARTS -----*/
