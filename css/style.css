@@ -426,7 +426,7 @@ hr{
     
 }
 .stars{
-    margin: 0 0 20.56px 38px;
+    margin: 0 0 20.56px 41px;
     text-align: center;
     padding: 0;
 }
@@ -459,9 +459,16 @@ hr{
 /*---------- Latest Blog STARTS ----------*/
 .latest-blog{
     width: 1172px;
-    padding: 0 0px 144px 0px;
+    /* padding: 0 0px 144px 0px; */
     margin-left: 7px;
 }
+.latest-blog .row{
+    --bs-gutter-x: 0;
+}
+.latest-blog .col {
+    max-width: 370px;
+}
+
 .latest-blog h1{
     margin: 156px 0 70px 0;
     font-weight: 400;
@@ -772,27 +779,36 @@ footer hr {
         width: 2em;
     }
     .customer-reviews p {
-        /* font-weight: 400; */
         font-size: 1rem;
         line-height: 2rem;
-        /* text-align: center; */
-        /* color: #555656; */
-        /* margin-bottom: 16px; */
     }
     .customer-img > img{
         width: 5em;
     }
     .customer h5 {
-        /* font-weight: 400; */
         font-size: 1.5em;
-        /* line-height: 55px; */
-        /* color: #15063F; */
-        /* margin: 9px; */
     }
 /*----- Customer Reviews ENDS ------*/
-/*----- Products On Sale STARTS -----*/
+/*----- Latest Blog STARTS -----*/
+.latest-blog{
+    width: 100%;
+    margin-left: 0;
+}
+.latest-blog h1 {
+    font-size: 3em;
+}
+.latest-blog .col{
+    max-width: 70%;
+    padding-bottom: 3em;
+}
+.blogs p {
+    margin: 1em 0 0 0;
+    max-width: 100%;
+    font-size: 1.2em;
+    line-height: 1.7em;
 
-/*----- Products On Sale ENDS ------*/
+}
+/*----- Latest Blog ENDS ------*/
 /*----- Products On Sale STARTS -----*/
 
 /*----- Products On Sale ENDS ------*/
@@ -948,12 +964,8 @@ footer hr {
     width: 2em;
 }
 .customer-reviews p {
-    /* font-weight: 400; */
     font-size: 1rem;
     line-height: 2rem;
-    /* text-align: center; */
-    /* color: #555656; */
-    /* margin-bottom: 16px; */
 }
 .customer-img > img{
     width: 5em;
@@ -963,9 +975,29 @@ footer hr {
     margin: 9px 0 1em 0;
 }
 /*----- Customer Reviews ENDS ------*/
-/*----- Products On Sale STARTS -----*/
+/*----- Latest Blog STARTS -----*/
+.latest-blog> .container{
+    width: 100%;
+}
+.latest-blog{
+    width: 100%;
+    margin-left: 0;
+}
+.latest-blog h1 {
+    font-size: 3em;
+}
+.latest-blog .col{
+    max-width: 70%;
+    padding-bottom: 3em;
+}
+.blogs p {
+    margin: 1em 0 0 0;
+    max-width: 100%;
+    font-size: 1.2em;
+    line-height: 1.7em;
 
-/*----- Products On Sale ENDS ------*/
+}
+/*----- Latest Blog ENDS ------*/
 /*----- Products On Sale STARTS -----*/
 
 /*----- Products On Sale ENDS ------*/
@@ -1080,9 +1112,7 @@ footer hr {
     margin-top: 18em;
 }
 .left-arrow img , .right-arrow img{
-
     width: 60%;
-
 }
 
     .customer-reviews .wrapper{
@@ -1108,12 +1138,8 @@ footer hr {
         width: 2em;
     }
     .customer-reviews p {
-        /* font-weight: 400; */
         font-size: 1rem;
         line-height: 2rem;
-        /* text-align: center; */
-        /* color: #555656; */
-        /* margin-bottom: 16px; */
     }
     .customer-img > img{
         width: 5em;
@@ -1123,9 +1149,29 @@ footer hr {
         margin: 9px 0 2em 0;
     }
  /*-----Customer Reviews ENDS ------*/
-/*----- Products On Sale STARTS -----*/
+/*----- Latest Blog STARTS -----*/
+.latest-blog> .container{
+    width: 100%;
+}
+.latest-blog{
+    width: 100%;
+    margin-left: 0;
+}
+.latest-blog h1 {
+    font-size: 3em;
+}
+.latest-blog .col{
+    max-width: 30%;
+    padding-bottom: 3em;
+}
+.blogs p {
+    margin: 1em 0 0 0;
+    max-width: 100%;
+    font-size: 1em;
+    line-height: 1.7em;
 
-/*----- Products On Sale ENDS ------*/
+}
+/*----- Latest Blog ENDS ------*/
 /*----- Products On Sale STARTS -----*/
 
 /*----- Products On Sale ENDS ------*/
@@ -1227,7 +1273,6 @@ footer hr {
     width: 100%;
 }
 .customer-reviews h1 {
-    /* margin: 2em 0;  */
     font-size: 3em;
     line-height: 0;
 }
@@ -1241,28 +1286,36 @@ footer hr {
     width: 2em;
 }
 .customer-reviews p {
-    /* font-weight: 400; */
     font-size: 1rem;
     line-height: 2rem;
-    /* text-align: center; */
-    /* color: #555656; */
-    /* margin-bottom: 16px; */
 }
 .customer-img > img{
     width: 5em;
 }
 .customer h5 {
-    /* font-weight: 400; */
     font-size: 2em;
     margin: 9px 0 2em 0;
 }
  /*-----Customer Reviews ENDS ------*/
  
 
-/*----- Products On Sale ENDS ------*/
-/*----- Products On Sale STARTS -----*/
+/*----- Latest Blog STARTS -----*/
 
-/*----- Products On Sale ENDS ------*/
+.latest-blog{
+    margin-left: 0;
+}
+.latest-blog .col{
+    max-width: 30%;
+    padding-bottom: 3em;
+}
+.blogs p {
+    margin: 1em 0 0 0;
+    max-width: 100%;
+    font-size: 1.2em;
+    line-height: 1.7em;
+
+}
+/*----- Latest Blog ENDS ------*/
 /*----- Products On Sale STARTS -----*/
 
 /*----- Products On Sale ENDS ------*/
