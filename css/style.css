@@ -700,8 +700,10 @@ footer hr {
 /*---- Exclusive Section STARTS ------*/
  
 .exclusive{
-    margin-top: 5em;
-    margin-left: 1em !important;
+        margin-top: 5em;
+        margin-right: auto!important;
+        margin-left: auto!important;
+   
 }
 .exclusive-text{
     padding: 2em .5em ;
@@ -940,7 +942,10 @@ footer hr {
 /*------ Latest Products ENDS ------- */
 
 /*---- Exclusive Section STARTS ------*/
-
+.exclusive{
+    margin-right: auto!important;
+    margin-left: auto!important;
+}
   
 .exclusive-text{
     padding: 3em;
@@ -1151,7 +1156,10 @@ width: 40%;
 /*------ Latest Products ENDS ------- */
 /*---- Exclusive Section STARTS ------*/
 
-  
+.exclusive{
+    margin-right: auto!important;
+    margin-left: auto!important;
+} 
 .exclusive-text{
     padding: 5em 2em;
 }
@@ -1353,7 +1361,10 @@ width: 40%;
 
 /*---- Exclusive Section STARTS -----*/
 
-  
+.exclusive{
+    margin-right: auto!important;
+    margin-left: auto!important;
+}
 .exclusive-text{
     padding: 3em;
 }
